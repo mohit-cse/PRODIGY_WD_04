@@ -1,6 +1,6 @@
-# PRODIGY_WD_04 — MOhit kumar
+# PRODIGY_WD_04 — Mohit Kumar
 
-This repository is a professionalized portfolio template prepared by MOhit kumar as a submission for the Prodigy Infotech web development internship task.
+This repository is a professionalized portfolio template prepared by Mohit Kumar as a submission for the Prodigy Infotech web development internship task.
 
 Files included:
 - `index.html` — main portfolio page (semantic structure)

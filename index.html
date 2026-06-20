@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PRODIGY Portfolio - Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Prodigy</h1>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Hi, I'm Akshat</h2>
+        <p>Web Developer | JavaScript | HTML | CSS</p>
+        <a class="btn" href="#contact">Hire Me</a>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h3>About</h3>
+      <p>This is a personal portfolio website built with HTML, CSS and JavaScript as a demo for Prodigy Infotech internship task.</p>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h3>Projects</h3>
+      <div class="project-grid">
+        <article class="project">
+          <h4>Project One</h4>
+          <p>Short description of project one.</p>
+        </article>
+        <article class="project">
+          <h4>Project Two</h4>
+          <p>Short description of project two.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>Contact</h3>
+      <form id="contactForm">
+        <label>Name<br><input type="text" name="name" required></label>
+        <label>Email<br><input type="email" name="email" required></label>
+        <label>Message<br><textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; 2026 Prodigy Portfolio</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
